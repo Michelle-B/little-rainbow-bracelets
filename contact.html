@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voorbeeldpagina</title>
+        <link rel="stylesheet" href="style.css"/>
+     </head>   
+     <body>
+
+<body style="background-color: #3b7834"></body>
+
+
+<header class="nav">
+  <div class="nav-container">
+
+    <div class="logo">PascalTuin</div>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="armbanden.html">ARMBANDEN</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger">
+      <span></span>
+       <span></span>
+        <span></span>
+    </div>
+
+  </div>
+</header>
+
+
+
+  <!-- Contact form -->
+<form class="contact-form">
+
+  <div>
+    <label for="voornaam">Voornaam</label>
+    <input type="text" id="voornaam" name="voornaam" required>
+  </div>
+
+  <div>
+    <label for="achternaam">Achternaam</label>
+    <input type="text" id="achternaam" name="achternaam" required>
+  </div>
+
+  <div>
+    <label for="adres">Adres</label>
+    <input type="text" id="adres" name="adres" required>
+  </div>
+
+  <div>
+    <label for="postcode">Postcode</label>
+    <input type="text" id="postcode" name="postcode" placeholder="1234 AB" pattern="[0-9]{4}\s?[A-Za-z]{2}" required>
+  </div>
+
+  <div>
+    <label for="woonplaats">Woonplaats</label>
+    <input type="text" id="woonplaats" name="woonplaats" required>
+  </div>
+
+  <div>
+    <label for="telefoon">Telefoonnummer</label>
+    <input type="tel" id="telefoon" name="telefoon" placeholder="06 12345678" pattern="[0-9\s+\-]{10,15}" required>
+  </div>
+
+  <div>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+  </div>
+
+  <div>
+    <input type="file" name="photos" accept="image/*" multiple>
+  </div>
+
+  <label for="feedback">Bericht</label><br>
+    <textarea id="feedback" name="feedback"></textarea>
+    <br><br>
+
+  <button type="submit">Verzenden</button>
+  <input type="reset" value="Reset">
+</form>
+
+
+
+
+
+
+
+
+     <footer>
+        <div class="footer-container">
+           <p>&copy; 2025 Michelle Bakker</p>
+           </div>
+     </footer>
+
+
+
+
+
+
+
+     <script src="script.js"></script>
+     </body>
